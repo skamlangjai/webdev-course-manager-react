@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CourseManager from './containers/CourseManager';
+// import CourseManager from './containers/CourseManager';
 import CourseList from './CourseList';
 
 class CourseManager extends React.Component {

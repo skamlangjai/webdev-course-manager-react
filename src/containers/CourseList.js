@@ -1,5 +1,6 @@
 import React from 'react';
 import CourseService from '../services/CourseService';
+import CourseRow from 
 
 class CourseList extends React.Component {
 
@@ -14,24 +15,54 @@ class CourseList extends React.Component {
             .then((courses) => {
                 this.setState({courses: courses});
             });
+    }
 
-        render() {
-        return (
-            <h2>Course List</h2>
-    )};
+        render()
+        {
+            return (
+                <div>
+                    <h2>Course List</h2>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Title</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <CourseRow/>
+                        <CourseRow/>
+                        <CourseRow/>
+                        </tbody>
+                    </table>
+                </div>
+            )
+        }
 
-    <div>
-        <h2>Course List</h2>
-        <table>
-            <thead><tr><th>Title</th></tr></thead>
-            <tbody>
-                <CourseRow/>
-                <CourseRow/>
-                <CourseRow/>
-            </tbody>
-        </table>
-    </div>
+
+        // {/*<div>*/
+        // }
+        // {/*<h2>Course List</h2>*/
+        // }
+        // {/*<table>*/
+        // }
+        // {/*<thead><tr><th>Title</th></tr></thead>*/
+        // }
+        // {/*<tbody>*/
+        // }
+        // {/*<CourseRow/>*/
+        // }
+        // {/*<CourseRow/>*/
+        // }
+        // {/*<CourseRow/>*/
+        // }
+        // {/*</tbody>*/
+        // }
+        // {/*</table>*/
+        // }
+        // {/*</div>*/
+        // }
+
 
 }
 
-export default CourseList;
+export default CourseList

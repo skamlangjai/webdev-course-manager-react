@@ -1,6 +1,6 @@
 import React from 'react';
 import CourseService from '../services/CourseService';
-import CourseRow from 
+import CourseRow from '../components/CourseRow';
 
 class CourseList extends React.Component {
 
@@ -39,28 +39,28 @@ class CourseList extends React.Component {
         }
 
 
-        // {/*<div>*/
-        // }
-        // {/*<h2>Course List</h2>*/
-        // }
-        // {/*<table>*/
-        // }
-        // {/*<thead><tr><th>Title</th></tr></thead>*/
-        // }
-        // {/*<tbody>*/
-        // }
-        // {/*<CourseRow/>*/
-        // }
-        // {/*<CourseRow/>*/
-        // }
-        // {/*<CourseRow/>*/
-        // }
-        // {/*</tbody>*/
-        // }
-        // {/*</table>*/
-        // }
-        // {/*</div>*/
-        // }
+        /*<div>*/
+        
+        /*<h2>Course List</h2>*/
+
+        /*<table>*/
+
+        /*<thead><tr><th>Title</th></tr></thead>*/
+
+        /*<tbody>*/
+
+        /*<CourseRow/>*/
+
+        /*<CourseRow/>*/
+
+        /*<CourseRow/>*/
+
+        /*</tbody>*/
+
+        /*</table>*/
+
+        /*</div>*/
+
 
 
 }
